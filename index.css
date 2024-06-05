@@ -1,0 +1,161 @@
+.user-profile {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+div.user-profile > h2 {
+  text-align: left;
+}
+div.user-profile > p{
+  text-align: left;
+}
+
+.user-profile h2 {
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333333;
+  font-weight: 600;
+  text-align: center;
+}
+
+.user-profile p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #666666;
+  text-align: center;
+}
+
+.user-profile hr {
+  
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #eeeeee;
+}
+
+.profile-container {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 10px;
+  border: 2px solid #e0e0e0;
+}
+
+.profile-image input {
+  display: none;
+}
+
+.upload-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #5c67f2;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.upload-button:hover {
+  background-color: #4a53d0;
+}
+
+.profile-image p {
+  font-size: 12px;
+  color: #999999;
+}
+
+.form-container {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  width: 48%;
+}
+
+.form-group.full-width {
+  width: 100%;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group .phone-input input {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 0;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #333333;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group .phone-input input:focus {
+  border-color: #5c67f2;
+  outline: none;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  background-color: #5c67f2;
+  color: #ffffff;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #4a53d0;
+  transform: translateY(-2px);
+}
+
+button:active {
+  background-color: #3b42a7;
+  transform: translateY(0);
+}
